@@ -2179,10 +2179,12 @@ input[type="radio"]+label:before {
     border: solid 2px #fff;
     display: inline-block;
     font-size: 1.35em;
-    height: calc(3em + 2px);
+    height: calc(3em + 20px);
     line-height: 3em;
     text-align: center;
-    width: calc(3em + 2px);
+    width: calc(3em + 20px);
+    /* padding-left: 5px;
+    padding-top: 3px; */
 }
 
 .icon.major:before {
@@ -2423,7 +2425,31 @@ ul.actions.fit.stacked {
 
 }
 
+span i {
+    /* -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(45deg);
+    display: inline-block; */
+    /* margin-top: 20px; */
+    /* margin-top: 10px;
+    margin-right: 6px; */
+    font-size: 65px;
+}
+
 /* Icons */
+span i::before {
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: inline-block;
+    margin-top: 10px;
+    /* margin-right: 60px; */
+    /* margin-right: 20px; */
+}
+
+
 
 ul.icons {
     cursor: default;
@@ -2442,6 +2468,7 @@ ul.icons li:last-child {
 
 ul.icons.major {
     padding: 1em 0;
+
 }
 
 ul.icons.major li {
@@ -2946,7 +2973,7 @@ button:disabled,
 }
 
 .wrapper.style1 {
-    background-color: #21b2a6;
+    background-color: #303535;
     color: #c8ece9;
 }
 
