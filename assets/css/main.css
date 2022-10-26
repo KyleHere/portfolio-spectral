@@ -1921,6 +1921,19 @@ header.major p {
     top: 0;
 }
 
+#projects-header {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+
+}
+
+/* .project-header-major {
+    height: 180px;
+    width: 100%;
+} */
+
 @media screen and (max-width: 736px) {
 
     header.major {
@@ -4116,6 +4129,16 @@ body.is-mobile #main>header {
 
 #footer .copyright li a:hover {
     color: #fff;
+}
+
+#contact-info {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-info p {
+    margin-right: 40px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 480px) {
