@@ -3547,7 +3547,7 @@ button:disabled,
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
     -webkit-overflow-scrolling: touch;
-    background: #21b2a6;
+    background: #334644;
     color: #ffffff;
     height: 100%;
     max-width: 80%;
@@ -4217,4 +4217,20 @@ body.is-mobile.landing #footer {
 .inner {
     display: flex;
     justify-content: center;
+}
+
+.blue {
+    background-color: #3a6591
+}
+
+.blue:hover {
+    background: #698db6;
+}
+
+.space {
+    height: 60px;
+}
+
+.horizontal {
+    margin-right: 50px;
 }
