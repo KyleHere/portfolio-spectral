@@ -2191,7 +2191,7 @@ input[type="radio"]+label:before {
     border-radius: 3px;
     border: solid 2px #fff;
     display: inline-block;
-    font-size: 1.35em;
+    font-size: 1.7em;
     height: calc(3em + 20px);
     line-height: 3em;
     text-align: center;
@@ -2447,7 +2447,7 @@ span i {
     /* margin-top: 20px; */
     /* margin-top: 10px;
     margin-right: 6px; */
-    font-size: 65px;
+    font-size: 80px;
 }
 
 /* Icons */
@@ -3089,7 +3089,7 @@ button:disabled,
 }
 
 .wrapper.style1 .icon.major {
-    border-color: rgba(0, 0, 0, 0.125);
+    border-color: rgba(255, 255, 255, 0.507);
 }
 
 .wrapper.style1 ul.alt li {
